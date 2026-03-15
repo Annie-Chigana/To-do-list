@@ -4,3 +4,9 @@ body {
     background-repeat: no-repeat;
     height: 97vh;
 }
+
+.btn-header {
+    display:flex;
+    justify-content: space-between;
+
+}
