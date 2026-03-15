@@ -29,11 +29,40 @@ body {
     color: #ebedbd;
 }
 
-i {
+.btn-header i  {
     font-size: 25px;
     padding:10px;
     background-color: #522e5b;
     width: 25px;
     height: 25px;
     color: #ebedbd;
+}
+
+
+/*add-page styling*/
+.add-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 97vh;
+}
+
+.add-section {
+    background-color:rgba(184, 119, 99, 0.7);
+    padding: 20px;
+
+    height: 70vh;
+    width: 50vw;
+    border-radius:30px;
+}
+
+.add-section:hover {
+    box-shadow: 0 8px 20px #6cb1b1;
+}
+a i {
+    background-color:#cce790;
+    padding: 13px;
+    border-radius: 50px;
+    color: #522e5b;
 }

@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <scrpt src="script.js"></scrpt>
 </head>
 <body>
-    <h1>Add</h1>
+    <div class="add-container">
+        <div class="add-section">
+            <a href="index.html"><i class="fa-solid fa-x"></i></a>
+
+            <div class="task-details">
+                <div class="tsk-name">
+                <label for="task-name">Task Name</label>
+                <input type="text" name="task-name" placeholder="e.g. Go for a run!">
+                </div>
+                <div class="dt">
+                <label for="date">Date</label>
+                <input type="date" name="date">
+                </div>
+            </div>
+            <div>
+                <button>Clear</button>
+                <button>Save</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
