@@ -8,5 +8,32 @@ body {
 .btn-header {
     display:flex;
     justify-content: space-between;
+    padding: 50px;
+}
 
+.add, 
+.view {
+    display: flex;
+    gap: 15px;
+
+    justify-content: center;
+}
+
+.btn-header button {
+    padding: 15px;
+    width:100px;
+    border:none;
+    border-radius: 10px;
+
+    background-color: #522e5b ;
+    color: #ebedbd;
+}
+
+i {
+    font-size: 25px;
+    padding:10px;
+    background-color: #522e5b;
+    width: 25px;
+    height: 25px;
+    color: #ebedbd;
 }
