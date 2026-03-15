@@ -61,8 +61,56 @@ body {
     box-shadow: 0 8px 20px #6cb1b1;
 }
 a i {
-    background-color:#cce790;
+    background-color:#ebedbd;
     padding: 13px;
     border-radius: 50px;
     color: #522e5b;
+}
+
+.task-details {
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tsk-name,
+.dt,
+.btn-actions {
+    margin-top: 50px;
+}
+
+label {
+    padding: 20px;
+    background-color: #ebedbd ;
+}
+
+input {
+    border:none;
+    padding:20px;
+    width: 400px;
+}
+
+.btn-actions {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.btn-actions button {
+    padding: 10px;
+    width:100px;
+    border:none;
+
+    border-radius:10px;
+}
+
+.btn-save {
+    background-color:#cce790;
+    color: #5f3b61;
+}
+
+.btn-clear {
+    background-color: #5f3b61;
+    color:#ebedbd;
 }
