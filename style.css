@@ -114,3 +114,9 @@ input {
     background-color: #5f3b61;
     color:#ebedbd;
 }
+
+/*list page styling*/
+.task-container {
+    display:flex;
+    justify-content: space-between;
+}
