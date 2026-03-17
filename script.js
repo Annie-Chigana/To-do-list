@@ -5,8 +5,8 @@ const clearBtn = document.getElementById("clear-btn");
 const taskList = document.getElementById("task-list");
 const completedList = document.getElementById("completed-list");
 
+///new
 
-// SAVE TASK
 if(saveBtn){
 
     saveBtn.addEventListener("click", function(){
